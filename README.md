@@ -17,7 +17,7 @@ Opt:
     - [Genotype.xls]: Genotype format of chip, with columns of
         ID,chrom,position,ref,genotype(sample1),ref_depth(sample1)...
     - [mode]: seq or num.
-        if seq, geno would be "AA,TT,CC,GG", and "NA" for missing;
+        if seq, geno would be "AA,TT,CC,GG", and "NN" for missing;
         if num, geno would be number of alt alleles, "0,1,2", and "-9" for missing;
 
 ** NOTE: Only output biallele SNP sites;
